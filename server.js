@@ -28,7 +28,7 @@ app.post('/', (req, res) => {
 });
 
 //Port yang digunakanoleh server
-  const PORT = proscess.env.PORT || 8080;
+  const PORT = process.env.PORT || 8080;
 
 //Mulai server
 app.listen(PORT, () => {
