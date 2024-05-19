@@ -32,6 +32,6 @@ app.post('/', (req, res) => {
 
 //Mulai server
 app.listen(PORT, () => {
-  console.log('Server berjalan pada port ${PORT}');
+  console.log(`Server berjalan pada port ${PORT}`);
 });
 
